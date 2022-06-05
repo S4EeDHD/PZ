@@ -2,10 +2,10 @@
 a small and simple minecraft bot attacker coded with java.
 
 # Features
-[!] 6 Method for attack.
-[!] Support HTTP proxy and DIRECT attack mode.
-[!] Support Prefix And Suffix for bot names.
-[!] Configurable version protocol for connecting.
+- [!] 6 Method for attack.
+- [!] Support HTTP proxy and DIRECT attack mode.
+- [!] Support Prefix And Suffix for bot names.
+- [!] Configurable version protocol for connecting.
 
 # Config.json
 ```json
@@ -25,11 +25,11 @@ a small and simple minecraft bot attacker coded with java.
 }
 ```
 
-# Depends for Build
--> Gson
--> Apache commons lang3
+# Depends for Building
+- Gson
+- Apache commons lang3
 
 # Developing
-This tool is no longer in developing. you can clone the code and edit it or debuging.
+This tool is no longer developing. you can clone the code and edit it or debuging.
 
 Discord - S4EeD_HD#6162
