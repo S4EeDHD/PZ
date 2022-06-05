@@ -8,6 +8,18 @@ a small and simple minecraft bot attacker coded with java.
 - [!] Configurable version protocol for connecting.
 
 # Config.json
+- **IP**: Inet Server IP.
+- **Port**: Server port.
+- **Delay**: Delay for runing threads.
+- **Threads**: Thread Count.
+- **Loop**: loop per thread
+- **Protocol**: minecraft version protocol number
+- **NickSize**: nick size. example: 3 = ABC
+- **ProxyType**: DIRECT or HTTP
+- **ProxyFile**: Proxy text file for HTTP connecting.
+- **BotPrefix**: Bot name Prefix
+- **BotSuffix**: Bot name Suffix
+- **Method**: All Methods: join, 2lsBypass, nAntiBot, SomeUUID, Ping, ERR0R, EmptyPacket, SilentAttack, Pz_Fucker
 ```json
 {
  "IP": "127.0.0.1",
